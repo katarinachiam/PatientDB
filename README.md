@@ -1,3 +1,7 @@
+# Documentation for constructing queries
+* including a birthdate: to enforce that each patient must have a birth date, I ensured that each patient had a date of birth by querying for patients who have a birth date less than today
+* Ideally, other columns such as Address, Contact information would be included if a "NOT NULL" constraint could be enforced
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
