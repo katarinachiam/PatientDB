@@ -35,7 +35,7 @@ const MenuBar = () => {
             <ContactsIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            HADI FIHR Patient Table
+            HADI FHIR Patient Table
           </Typography>
           <Button color="inherit">Applicant: Katarina Chiam</Button>
         </Toolbar>

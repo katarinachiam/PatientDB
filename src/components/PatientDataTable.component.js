@@ -78,7 +78,7 @@ export default function PatientDataTable() {
   var total_age = 0; 
   const entries = ageList.map((age) => (total_age += age));
   const tot_age = entries[entries.length - 1]
-  const avg_age = tot_age/entries.length;
+  const avg_age = Math.round(tot_age/entries.length);
 
 
   return (
